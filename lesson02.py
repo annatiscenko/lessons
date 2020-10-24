@@ -7,4 +7,9 @@ b = int(input('enter b: '))
 print(f'a+b={a+b}')
 print(f'a-b={a-b}')
 print(f'a*b={a*b}')
-print(f'a/b={a/b}')
+
+if b != 0:
+    print(f'a/b={a/b}')
+else:
+    print('can not divide by 0')
+
