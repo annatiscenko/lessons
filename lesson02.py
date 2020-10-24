@@ -1,0 +1,10 @@
+name = input('What is your name?: ')
+surname = input('Enter your surname: ')
+print('Nice to meet you '+name+' '+surname+'!')
+a = int(input('enter a: '))
+b = int(input('enter b: '))
+
+print('a+b=', a+b)
+print('a-b=', a-b)
+print('a*b=', a*b)
+print('a/b=', a/b)
